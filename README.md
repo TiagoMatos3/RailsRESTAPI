@@ -1,6 +1,15 @@
-![example workflow](https://github.com/YuKitAs/rails-rest-api/actions/workflows/rubyonrails.yml/badge.svg?branch=master)
+# Rails API
 
-# Rails Rest API
+## Run project with docker
+**Create a docker image**
+```console
+$ docker build -t rails-api .  
+```
+
+**Create a container**
+```console
+$ docker run --name rails-api --net=host -p 3000:3000 rails-api
+```
 
 ## Project Setup
 
